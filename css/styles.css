@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.site-header {
+    position: relative;
+    z-index: 5;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    color: #111517;
+    transition: 0.3s;
+}
+
+.header-link-dark {
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.header-btn {
+    width: 108px;
+    border: none;
+    background-color: transparent;
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    background-image: url("../Images/Group\ 3.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-align: right;
+    transition: 0.3s;
+}
+
+.header-btn-dark {
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.hero {
+    padding-top: 48px;
+    padding-bottom: 45px;
+    background-color: #fafafa;
+    transition: 0.3s;
+}
+
+.hero-dark {
+    background: #202C36;
+    transition: 0.3s;
+}
+
+.hero-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.hero-input {
+    width: 480px;
+    height: 56px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    color: #848484;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    border: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 74px;
+    background-image: url("../Images/search.svg");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: left 32px center;
+    transition: 0.3s;
+}
+
+.hero-input-dark {
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+    background-image: url("../Images/search.svg");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: left 32px center;
+    color: #FFF;
+}
+
+.hero-input-dark::placeholder {
+    color: #FFF;
+}
+
+.hero-select {
+    width: 200px;
+    height: 56px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    padding: 18px 24px 18px 24px;
+    text-align: left;
+    border: none;
+    transition: 0.3s;
+}
+
+.hero-select-dark {
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    transition: .3s;
+    color: #FFF;
+}
+
+.hero-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.hero-item {
+    width: 264px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    margin-bottom: 67px;
+    padding-bottom: 38px;
+    transition: .3s;
+}
+
+.hero-item-dark {
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    transition: .3s;
+}
+
+.hero-img {
+    border-radius: 5px 5px 0 0;
+}
+
+.hero-title {
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px; /* 144.444% */
+    margin-bottom: 16px;
+    margin-left: 24px;
+    transition: .3s;
+}
+
+.hero-title-dark {
+    color: #FFF;
+    transition: .3s;
+}
+
+.hero-img {
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 114.286% */
+    margin-left: 24px;
+    margin-bottom: 8px;
+    transition: .3s;
+}
+
+.hero-text-dark {
+    color: #FFF;
+    transition: .3s;
+}
+
+.hero-text-dark .hero-span {
+    color: #FFF;
+    transition: .3s;
+}
+
+.hero-span {
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    transition: .3s;
+}
+
+.site-header-dark {
+    background-color: #2B3844;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+}
